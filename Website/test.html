@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>iSurf</title>
+    <meta charset="UTF-8">
+    <title>ThingSpeak Integration</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="test.js"></script>
+</head>
+<body>
+    <h1>Humidity and Temperature Record</h1>
+    <div id="data-container" class="data-container">
+        <div class="table">
+            <div class="btn">
+                <button onclick="writeData()">Write Data</button>
+                <button onclick="readData()">Read Data</button>
+            </div>
+            <table id="data-table">
+                <thead>
+                    <tr>
+                        <th>Time</th>
+                        <th>Date</th>
+                        <th>Temperature (°C)</th>
+                        <th>Humidity (%)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Data rows will be added here dynamically -->
+                </tbody>
+            </table>
+            <h2>Pagi</h2>
+            <table id="pagi-table">
+                <thead>
+                    <tr>
+                        <th>Time</th>
+                        <th>Date</th>
+                        <th>Temperature (°C)</th>
+                        <th>Humidity (%)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Data rows will be added here dynamically -->
+                </tbody>
+            </table>
+            <h2>Siang</h2>
+            <table id="siang-table">
+                <thead>
+                    <tr>
+                        <th>Time</th>
+                        <th>Date</th>
+                        <th>Temperature (°C)</th>
+                        <th>Humidity (%)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Data rows will be added here dynamically -->
+                </tbody>
+            </table>
+            <h2>Malam</h2>
+            <table id="malam-table">
+                <thead>
+                    <tr>
+                        <th>Time</th>
+                        <th>Date</th>
+                        <th>Temperature (°C)</th>
+                        <th>Humidity (%)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Data rows will be added here dynamically -->
+                </tbody>
+            </table>
+        </div>
+        <div id="chart-container" class="chart-container">
+            <canvas id="tempChart"></canvas>
+            <canvas id="humidityChart"></canvas>
+            <div id="response"></div>
+            <iframe class="plot" width="450" height="260" src="https://thingspeak.com/channels/2545003/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line"></iframe>
+            <iframe class="plot" width="450" height="260" src="https://thingspeak.com/channels/2545003/charts/2?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe>    
+        </div>
+    </div>
+</body>
+</html>

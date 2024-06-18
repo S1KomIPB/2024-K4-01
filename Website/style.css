@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+} 
+
+body {
+    max-width: 100vw;
+    padding: 40px 100px;
+}
+
+body h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.data-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    gap: 150px;
+}
+
+.table {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+}
+
+.table .btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    width: 100%;
+}
+
+.btn button{
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+.btn button:hover{
+    background-color: #0056b3;
+}
+
+.chart-container {
+    margin-top: 56px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 100%;
+}
+
+.table h2 {
+    margin-top: 10px;
+}
+
+#data-table {
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+#pagi-table {
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+#siang-table {
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+#malam-table {
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+#data-table th{
+    padding: 10px;
+    text-align: center;
+    border: 1px solid;
+}
+
+#pagi-table th{
+    padding: 10px;
+    text-align: center;
+    border: 1px solid;
+}
+
+#siang-table th{
+    padding: 10px;
+    text-align: center;
+    border: 1px solid;
+}
+
+#malam-table th{
+    padding: 10px;
+    text-align: center;
+    border: 1px solid;
+}
+
+#data-table td{
+    text-align: center;
+    border: 1px solid;
+    padding: 10px;
+}
+
+#pagi-table td{
+    text-align: center;
+    border: 1px solid;
+    padding: 10px;
+}
+
+#siang-table td{
+    text-align: center;
+    border: 1px solid;
+    padding: 10px;
+}
+
+#malam-table td{
+    text-align: center;
+    border: 1px solid;
+    padding: 10px;
+}
+
+#tempChart {
+    padding: 5px;
+    border: solid 1px #000;
+    margin-right: 10px;
+}
+
+#humidityChart {
+    padding: 5px;
+    border: solid 1px #000;
+    margin-right: 10px;
+}
+
+.plot {
+    padding: 1px;
+    border: solid 1px #000;
+}
