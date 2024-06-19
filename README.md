@@ -14,7 +14,7 @@ Repository mata kuliah Capstone 2024 IPB University </br>
 <img title="a title" alt="Alt text" src="module.jpeg">
 <img title="b title" alt="Alt text" src="Screenshot 2024-06-19 090657.png">
 
-| Link |
+| Link Program |
 |---|
 |[Website](Website) |
 |[Modul Arduino IDE](sketch_jun19b) |
