@@ -1,6 +1,7 @@
 # 2024-K4-01
 Repository mata kuliah Capstone 2024 IPB University </br>
-<ul> Mentor : Dr. Ir. Sri Wahjuni M.T.</ul>
+<ul> Mentor : </ul>
+<li>Dr. Ir. Sri Wahjuni M.T.</li>
 <ul> NAMA ANGGOTA : </br>
 <li> Ronald Abner - G640121110 </li>
 <li> Aditya Mahendra - G6401211015 </li>
@@ -22,5 +23,5 @@ Repository mata kuliah Capstone 2024 IPB University </br>
 
 <li> This research aims to design and develop an automated humidity control system based on the ESP32 microcontroller for use in greenhouses. Utilizing IoT technology, specifically ESP32 and the DHT22 sensor, this system allows for efficient and automatic monitoring and adjustment of humidity. Methods employed include device assembly, calibration, and onsite testing. The findings demonstrate that the system effectively controls humidity, reduces manual interventions, and enhances plant productivity. Implications of the study indicate the potential for broader adoption in the agricultural sector, improving operational efficiency and potential cost and resource savings.</li>
 
-<li>Keywords: automated humidity, greenhouse, ESP32, IoT, agricultural efficiency</li>
+<i>Keywords: automated humidity, greenhouse, ESP32, IoT, agricultural efficiency</i>
 
