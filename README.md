@@ -2,12 +2,14 @@
 Repository mata kuliah Capstone 2024 IPB University </br>
 <ul> Mentor : </ul>
 <li>Dr. Ir. Sri Wahjuni M.T.</li>
-<ul> NAMA ANGGOTA : </br>
-<li> Ronald Abner - G640121110 </li>
-<li> Aditya Mahendra - G6401211015 </li>
-<li> Fais Fadillah Prasetyo - G6401211057 </li>
-<li> Muhammad Giyas Wisnu Rizqi - G6401211091 </li>
-<li>Naufal Akbar Rahardjo - G6401211119 </li>
+
+| NIM | Nama |
+|---|---|
+| G640121110 | Ronald Abner |
+| G6401211015 | Aditya Mahendra |
+| G6401211057 | Fais Fadillah Prasetyo |
+| G6401211091 | Muhammad Giyas Wisnu Rizqi |
+| G6401211119 | Naufal Akbar Rahardjo |
 </ul>
 <img title="a title" alt="Alt text" src="module.jpeg">
 <img title="b title" alt="Alt text" src="Screenshot 2024-06-19 090657.png">
